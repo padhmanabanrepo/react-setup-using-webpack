@@ -1,0 +1,29 @@
+{
+  "name": "base-react-setup-using-webpack",
+  "version": "0.0.1",
+  "description": "React Project Setup using WebPack",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "react-application",
+    "app-setup"
+  ],
+  "author": "Padmanaban",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "serve": "^11.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/preset-react": "7.12.13",
+    "@babel/preset-env": "7.12.17",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
